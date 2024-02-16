@@ -1,0 +1,15 @@
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Domain\bin\Debug\net7.0\Domain.dll
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Domain\obj\Debug\net7.0\Domain.dll
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Domain\bin\Debug\net7.0\Entity.dll
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Domain\bin\Debug\net7.0\Entity.pdb
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete

@@ -1,0 +1,14 @@
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Entity\bin\Debug\net7.0\Entity.deps.json
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Entity\bin\Debug\net7.0\Entity.dll
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Entity\bin\Debug\net7.0\Entity.pdb
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Entity\obj\Debug\net7.0\Entity.csproj.AssemblyReference.cache
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Entity\obj\Debug\net7.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Entity\obj\Debug\net7.0\Entity.AssemblyInfoInputs.cache
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Entity\obj\Debug\net7.0\Entity.AssemblyInfo.cs
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Entity\obj\Debug\net7.0\Entity.csproj.CoreCompileInputs.cache
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Entity\obj\Debug\net7.0\Entity.dll
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Entity\obj\Debug\net7.0\refint\Entity.dll
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Entity\obj\Debug\net7.0\Entity.pdb
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Entity\obj\Debug\net7.0\ref\Entity.dll
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Entity\bin\Debug\net7.0\Entity.runtimeconfig.json
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Entity\obj\Debug\net7.0\Entity.genruntimeconfig.cache
