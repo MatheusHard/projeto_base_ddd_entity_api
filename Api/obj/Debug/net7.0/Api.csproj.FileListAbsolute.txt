@@ -49,3 +49,12 @@ C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Api\bin\Debug\net7.0\Mon
 C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Api\bin\Debug\net7.0\MySqlConnector.dll
 C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Api\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Api\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Api\bin\Debug\net7.0\Application.dll
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Api\bin\Debug\net7.0\Domain.dll
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Api\bin\Debug\net7.0\Entity.dll
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Api\bin\Debug\net7.0\Infrastructure.dll
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Api\bin\Debug\net7.0\Application.pdb
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Api\bin\Debug\net7.0\Infrastructure.pdb
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Api\bin\Debug\net7.0\Domain.pdb
+C:\Projetos Desenvolvimento\Projetos_DotNet\WEB_API_DDD\Api\bin\Debug\net7.0\Entity.pdb
