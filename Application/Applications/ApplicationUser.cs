@@ -18,9 +18,9 @@ namespace Application.Applications
             _user = user;
         }
 
-        public async Task<bool> Add(string username, string password, string telefone, TipoUsuario tipoUsuario)
+        public async Task<bool> AddUser(string username, string password, string telefone, TipoUsuario tipoUsuario)
         {
-            return await _user.Add(username, password, telefone, tipoUsuario);
+            return await _user.AddUser(username, password, telefone, tipoUsuario);
         }
 
         public async Task<bool> UserExists(string username, string password)

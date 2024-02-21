@@ -19,7 +19,7 @@ namespace Infrastructure.Repository
         {
             _optionsBuilder = new DbContextOptions<Contexto>();
         }
-        public async Task<bool> Add(string username, string password, string telefone, TipoUsuario tipoUsuario)
+        public async Task<bool> AddUser(string username, string password, string telefone, TipoUsuario tipoUsuario)
         {
             try {
 
