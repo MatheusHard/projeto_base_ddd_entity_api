@@ -23,6 +23,11 @@ namespace Application.Applications
             return await _user.AddUser(username, password, telefone, tipoUsuario);
         }
 
+        public async Task<string> GetIdUser(string username)
+        {
+            return await _user.GetIdUser(username);
+        }
+
         public async Task<bool> UserExists(string username, string password)
         {
             return await _user.UserExists(username, password);

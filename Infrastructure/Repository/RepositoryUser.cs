@@ -62,5 +62,22 @@ namespace Infrastructure.Repository
             }
             return true;
         }
+        public async Task<string> GetIdUser(string username)
+        {
+            try {
+                using (var data = new Contexto(_optionsBuilder)) {
+                    var user = await data.Users.
+                        Where(u => u.UserName.Equals(username))
+                        .AsNoTracking()
+                        .FirstOrDefaultAsync();
+
+                    return user.Id;
+                }
+            }
+            catch (Exception) {
+
+                throw;
+            }
+        }
     }
 }

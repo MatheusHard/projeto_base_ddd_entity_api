@@ -43,7 +43,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).
 
             ValidIssuer = "Teste.Security.Bearer",
             ValidAudience = "Teste.Security.Bearer",
-            IssuerSigningKey = JwtSecurityKey.Create("Secrete_Key_12345678")  
+            IssuerSigningKey = JwtSecurityKey.Create(builder.Configuration.GetSection("Jwt")["SecretKey"])  
         };
     });
 
@@ -53,6 +53,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.UseAuthentication();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment()) {

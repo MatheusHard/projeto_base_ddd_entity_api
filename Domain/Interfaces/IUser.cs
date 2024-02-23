@@ -10,6 +10,7 @@ namespace Domain.Interfaces
     public interface IUser
     {
         Task <bool> AddUser(string username, string password, string telefone, TipoUsuario tipoUsuario);
+        Task<string> GetIdUser(string username);
         Task<bool> UserExists(string username, string password);
 
     }

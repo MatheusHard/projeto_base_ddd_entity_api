@@ -11,6 +11,7 @@ namespace Application.Interfaces
     {
         Task<bool> AddUser(string username, string password, string telefone, TipoUsuario tipoUsuario);
         Task<bool> UserExists(string username, string password);
+        Task<string> GetIdUser(string username);
 
 
     }
