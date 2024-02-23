@@ -1,5 +1,6 @@
 ﻿using Api.Models;
 using Api.Token;
+using Api.Utils;
 using Application.Applications;
 using Application.Interfaces;
 using Microsoft.AspNetCore.Authorization;
@@ -30,7 +31,7 @@ namespace Api.Controllers
             if (string.IsNullOrEmpty(login.UserName) || string.IsNullOrEmpty(login.Password))
                 return Unauthorized();
 
-            var UserExists = await _applicationUser.UserExists(login.UserName, login.Password);
+            var UserExists = await _applicationUser.UserExists(login.UserName, login.Password.ToSHA1());
             if (UserExists) 
             {
                 var idUser = await _applicationUser.GetIdUser(login.UserName);
@@ -41,7 +42,7 @@ namespace Api.Controllers
                     .AddIssuer("Teste.Security.Bearer")
                     .AddAudience("Teste.Security.Bearer")
                     .AddClaim("idUser", idUser)
-                    .AddExpiry(1)
+                    .AddExpiry(5)
                     .Builder();
 
                 return Ok(token.value);
@@ -60,6 +61,8 @@ namespace Api.Controllers
         {
             if (string.IsNullOrEmpty(login.UserName) || string.IsNullOrEmpty(login.Password))
                 return Ok("Faltando dados!!!");
+
+            login.Password = login.Password.ToSHA1();
 
             var user = await _applicationUser.AddUser(login.UserName, login.Password, login.Telefone, login.TipoUsuario);
 
